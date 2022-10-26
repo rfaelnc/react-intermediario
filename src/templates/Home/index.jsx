@@ -80,7 +80,7 @@ export class Home extends Component {
           <Posts posts={filteredPosts} />
         )}
 
-        {filteredPosts.length == 0 && (
+        {filteredPosts.length === 0 && (
           <p>Post não encontrado =( </p>
         )}
 
